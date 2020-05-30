@@ -13,4 +13,4 @@ try:
     batch_file_rename(sys.argv[1], sys.argv[2], sys.argv[3])
 except:
     print('Wrong arguments, try again. Usage: ')
-    print('python batch_renamer.py /path/to/directory/with/files str_to_be_replaced replace_with')
+    print('python batch_file_rename.py /path/to/directory/with/files/ str_to_be_replaced replace_with')
