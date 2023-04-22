@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df = pd.read_csv('/path/to/file.csv')
+df = pd.read_csv('./resources/file.csv')
 
 plt.plot(df['df_column_name'])
 plt.xlabel('x axis description')
